@@ -1,0 +1,54 @@
+/*barra de registo*/
+#topBar {
+  position: relative;
+  top: 0; 
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 102, 0);
+}
+/*imagem de logotipo */
+#logo{
+  width: 250px;
+  height: 250px;
+  margin-left: 450px;
+  margin-top: 50px;
+  position: relative;
+  padding: 100px;
+}
+.container{
+  position: relative;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+  font-style: normal;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+li a:hover {
+  background-color: #111;
+}
+#fundo{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+ 
+}
+/*fundo de comida*/
+#fundoComida{
+  height: 500px;
+  width: 100%;
+  position: absolute;
+
+}
+/*barra de pesquisa*/
